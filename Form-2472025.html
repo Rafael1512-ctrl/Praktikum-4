@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(/img/Background.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            font-family: Arial, sans-serif;
+        }
+        div.form{
+            margin:auto;
+            width:30%;
+            background-color: azure;
+            border-radius: 10px;
+            margin-top: 10%;
+            padding: 30px;
+        }
+        input{
+            width: 450px;
+            border-radius: 5px;
+        }
+        input:focus{
+            border-color:#007bff ;
+            outline: none;
+        }
+        input.kirim{
+            background-color: #007bff;
+        }
+        input.kirim:focus{
+            border-color:#007bff ;
+            outline: none;
+        }
+        .ti{
+            width: 450px;
+        }
+        .ti:focus{
+            border-color:#007bff ;
+            outline: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h1 align="center">Form Kontak</h1>
+        <label for="">Nama</label><br>
+        <input type="text"><br>
+        <label for="">Email</label><br>
+        <input type="email"><br>
+        <label for="">Pesan</label><br>
+        <textarea class="it" rows="7" cols="53"></textarea><br>
+        <label for="">Course:</label>
+        <select id="" class="ti"><option value=>Teknik Informatika</option>
+        </select><br>
+        <input class="kirim" type="submit">
+        
+
+    </div>
+</body>
+</html>

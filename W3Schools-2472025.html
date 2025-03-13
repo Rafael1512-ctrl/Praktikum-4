@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Verdana;
+        }
+        table{
+            width: 100%;
+            border: 0px none;
+        }
+        a.navbar{
+            text-decoration: none;
+            color: white;
+        }
+        table.navbar{
+            background-color: #282B30;
+            color:  white;
+            width: 100%;
+            text-align: center;
+            
+        }
+        td.navbar{
+            text-align: center;
+            width: 20%;
+        }
+        td.navbar:hover{
+            background-color: #15202B;
+        }
+        td.navbar:active{
+            background-color: #7289DA;
+        }
+        tr{
+            text-align: center;
+            width: 20%;
+            padding: 0px;  
+            border-bottom: 0px;
+            border-top: 0px;
+        }
+        .content{
+            width: 50%;
+        }
+        .html{
+            background-color: #D9EEE1;
+        }
+        .css{
+            background-color: #FFF4A3;
+        }
+        .js {
+            background-color: #F3ECEA;
+        }
+        button{
+            border-radius: 15px;
+            width: 200px;
+            height: 30px;
+            border: 0px;
+            font-weight: bold;
+        }
+        img{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .green{
+            background-color: #04AA6D;
+            color: white;
+        }
+        .black{
+            background-color: #1e2124;
+            color: white;
+        }
+        .pink{
+            background-color: #FFC0C7;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <table class="navbar">
+            <tr>
+                <td class="navbar"><a  class="navbar" href="#html">HTML</a></td>
+                <td class="navbar"><a  class="navbar" href="#css">CSS</a></td>
+                <td class="navbar"><a  class="navbar" href="#js">JAVASCRIPT</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="html" id="html">
+        <table>
+            <tr>
+                <td class="content">
+                    <h1>HTML</h1>
+                    <p>The language for building web pages</p>
+                    <button class="green">Learn HTML</button><br><br>
+                    <button class="black">HTML Reference</button><br><br>
+                    <button class="pink">Get Certificate</button>
+                </td>
+                <td class="content"><img src="/img/html.png" alt=""></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="css" id="css">
+        <table>
+            <tr>
+                <td class="content"><img src="/img/css.png" alt=""></td>
+                <td class="content">
+                    <h1>CSS</h1>
+                    <p>The language for styling web pages</p>
+                    <button class="green">Learn CSS</button><br><br>
+                    <button class="black">CSS Reference</button><br><br>
+                    <button class="pink">Get Certificate</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="js" id="js">
+        <table>
+            <tr>
+                <td class="content">
+                    <h1>JavaScript</h1>
+                    <p>The language for programming web pages</p>
+                    <button class="green">Learn JavaScript</button><br><br>
+                    <button class="black">JavaScript Reference</button><br><br>
+                    <button class="pink">Get Certificate</button>
+                </td>
+                <td class="content">
+                    <img src="/img/js.png" alt="">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
