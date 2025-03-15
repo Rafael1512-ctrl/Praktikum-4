@@ -7,20 +7,11 @@ body{
 header{
     border-bottom: #e2b714;
 }
-div{
-    background-color: aqua;
-    height: 75px;
-    width: 75px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px;
-    margin: auto;
-}
 img{
     background-color: #e2b714;
     height: 50px;
     width: auto;
-    margin-top: 15%;
+    
 }
 hr{
     border-color: #e2b714;
